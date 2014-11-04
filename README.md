@@ -11,7 +11,7 @@ PA will upload **all files** in the mod directory, including `node_modules` and 
 - copy:unitFiles - copy json files into the mod, with optional filename regexp
 - copy:build - copy build.js into the mod
 - copy:mod - copy the mod files into server_mods
-- proc:health - process unit files; set up for double health as an example.  Expectation is that several proc:X tasks will me made.
+- modify:health - modify unit files in place; set up for double health as an example.  Expectation is that several modify:X tasks will me made.
 - jsonlint - lint all the mod json files
 - json_schema - partial validation of mod json files format using schema by exterminans https://forums.uberent.com/threads/wip-units-ammo-and-tools-json-validation-schema.60451/
 - default: json_schema, jsonlint
